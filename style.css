@@ -31,6 +31,7 @@ nav
     color: #333;
     overflow: auto;
     padding: 7px 0;
+    height: 80px;
 }
 nav a
 {
@@ -48,21 +49,23 @@ nav ul
 {
     list-style: none;
     float: right;
+    padding-top: 15px;
 }
 nav ul li
 {
     float: left;
+    padding: 1px;
 }
 nav ul li a
 {
     display: block;
-    padding: 20px;
+    padding: 5px 15px;
     text-align: center;
 }
 nav ul li select
 {
     display: block;
-    margin-top: 26px;
+    margin-top: 11px;
     text-align: center;
     border: none;
     font-size: 15px;
@@ -73,6 +76,17 @@ nav ul li select
 nav ul li a:hover, nav ul li a.current
 {
     color: #dc143c;
+}
+nav ul li a.current2
+{
+    background-color: #dc143c;
+    color: #fff;
+    border-radius: 5px;
+}
+nav ul li a.current2:hover
+{
+    background-color: #f7c08a;
+    color: #333;
 }
 
 /*----------------------------------------- Showcase ------------------------*/
@@ -304,7 +318,7 @@ nav ul li a:hover, nav ul li a.current
 {
     height: 330px;
     width: 350px;
-    background-image: url(./images/1.jpg);
+    background-image: url(./images/1a.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -312,7 +326,7 @@ nav ul li a:hover, nav ul li a.current
 {
     height: 530px;
     width: 350px;
-    background-image: url(./images/2.jpg);
+    background-image: url(./images/2a.jpg);
     background-size: cover;
     justify-content: right;
     cursor: pointer;
@@ -321,7 +335,7 @@ nav ul li a:hover, nav ul li a.current
 {
     height: 250px;
     width: 350px;
-    background-image: url(./images/3.jpg);
+    background-image: url(./images/3a.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -329,7 +343,7 @@ nav ul li a:hover, nav ul li a.current
 {
     height: 500px;
     width: 350px;
-    background-image: url(./images/4.jpg);
+    background-image: url(./images/4a.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -337,7 +351,7 @@ nav ul li a:hover, nav ul li a.current
 {
     height: 250px;
     width: 350px;
-    background-image: url(./images/5.jpg);
+    background-image: url(./images/5a.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -345,7 +359,7 @@ nav ul li a:hover, nav ul li a.current
 {
     height: 250px;
     width: 350px;
-    background-image: url(./images/6.jpg);
+    background-image: url(./images/6a.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -353,7 +367,7 @@ nav ul li a:hover, nav ul li a.current
 {
     height: 240px;
     width: 350px;
-    background-image: url(./images/7.jpg);
+    background-image: url(./images/7a.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -369,7 +383,7 @@ nav ul li a:hover, nav ul li a.current
 {
     height: 200px;
     width: 350px;
-    background-image: url(./images/9.jpg);
+    background-image: url(./images/9a.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -530,4 +544,9 @@ footer .arrow_up
     padding: 6px 12px 0 12px;
     background-color: #dc143c;
     cursor: pointer;
+}
+.arrow_up:hover
+{
+    background-color: #f7c08a;
+    color: #333;
 }
